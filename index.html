@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<!--
+    Michael Kellems
+    CIT 312
+    Prof. Kane
+    5/7/25
+-->
+
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE=Edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>CIT Poster</title>
+        <script src = "lib/enabler.js" defer></script>
+        <link href = "lib/style.css" type = "text/css" rel = "stylesheet"></link>
+        <link href = "lib/style.less" type = "text/css" rel = "stylesheet/less"></link>
+        <link rel = "icon" href = "images/favicon/favicon.ico"><link>
+        <script src="https://cdn.jsdelivr.net/npm/less" ></script>   
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+        />
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+        />
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+        ></script>
+    </head> 
+    <body>
+        <!--nav bar-->
+        <div class = "navbar navbar-expand-md navbar-light">
+            <a class = "navbar-brand" href = "#">
+                <img src = "images/brand1.png"/>
+            </a>
+            
+            <h1>Welcome to CIT!</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse" id = "nav">
+                <ul class = "navbar-nav">
+                    <li class = "nav-item active">
+                        <a class = "nav-link" href = "#focuses"><i class = "bi bi-bullseye"></i>Four CIT Focuses</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#appliedcomputing"><i class = "bi bi-cpu"></i>Applied Computing</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#quiz"><i class = "bi bi-check-all"></i>Quiz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--four focuses quadrants-->
+        <div class = "container-span" id = "focuses">
+            <div class = "row">
+                <div class = "col-6">
+                    <div class = "focus">
+                        <img src = "images/software.png"/>
+                        <h1>
+                            Software
+                        </h1>
+                    </div>
+                </div>
+                <div class = "col-6">
+                    <div class = "focus">
+                        <img src = "images/networking.png"/>
+                        <h1>
+                            Networking
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-6">
+                    <div class = "focus">
+                        <div class = "focus">
+                            <img src = "images/data.png"/>
+                            <h1>
+                                Data Management
+                            </h1>  
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-6">
+                    <div class = "focus">
+                        <div class = "focus">
+                            <img src = "images/security.png"/>
+                            <h1>
+                                Cyber Security
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--applied computing-->
+        <div id = "appliedcomputing">
+            <h1>Applied Computing</h1>
+        </div>
+
+        <div class = "container-span">
+            <div class = "computing">
+                <img src = "images/brand.png"/>
+            </div>
+            <div class = "examples">
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Develop software for mobile apps">Mobile App Developer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Develop software">Software Developer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Manage a team of developers">Dev Ops Manager<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Keep systems safe with cybersecurity knowledge">Cybersecurity Expert<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Program websites and webapps">Web Programmer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Manage a database">Database Administrator<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Be the voice of reason for a client">Consultant<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Analyse the security of a system">Security Analyst<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Teach HTML, cybersecurity, etc.">Instructor<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Parse the information in a database">Data Analyst<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Use your expertise in CIT to document information">Technical writer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Write code">Coder<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Make a good user experience">UX/UI Designer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Be the person who tests things">Test engineer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Design and built networks">Network architect<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Keep systems safe with cybersecurity knowledge">Cybersecurity Expert<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Work with the hardware components">Hardware engineer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Explore the science of data and information ">Data Research Scientist<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Manage a network">Network Administrator<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Develop from all ends - client to server">Full Stack Developer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Design and build webapps">Web Architect<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Analyse industrial processes">Industry Analyst<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Make video games">Games Developer<i class="bi bi-record-fill"></i></h3>
+                <h3 data-bs-toggle="tooltip" data-bs-placement="top" title="Be in charge of information">Chief Information Officer<i class="bi bi-record-fill"></i></h3>
+            </div>
+        </div>
+
+        <!--quiz-->
+        <div id = "quiz">
+            <h1>CIT Quiz</h1>
+        </div>
+
+        <!--wrong and correct class used to denote whether an answer is correct-->
+        <div class = "container-span">
+            <div class = "question">
+                <h1>Q1: What does the accronym "CIT" stand for?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Cookie Itty Tibblers</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Computer Informatics & Technology</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Cooperative Informality Techniques</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>All of the above</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q2: What are purdue university students called?</h1>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Boilermakers</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Coolguy Schoolguys</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Barbers</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Gold Rushers</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q3: What is used to make websites?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>CSS</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Markup</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>HTML</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>All of the above</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q4: What does UX stand for?</h1>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>User Experience</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Ultimate Xtreme</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Unanymous Experience</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>None of the above.</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q5: In what Indiana town is Purdue University located?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Muncie</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Bloomington</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Lafayette</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Goshen</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q6: What school is the CIT major part of?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Medicine</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Business</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>College</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Engineering & Technology</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q7: Which color is part of purdue branding?</h1>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Black</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Purple</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Yellow</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Grey</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q8: Which software is used for database management?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>My Prequel</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Google</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>MySQL</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Visual Studio Code</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q9: What are the four focuses of CIT?</h1>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Software, Networking, Data Management, Cybersecurity</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Computers, Networking, Data Management, Cybersecurity</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Software, Networking, Programming, Cybersecurity</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Software, Statistics, Data Management, Cybersecurity</p></button>
+            </div>
+            <div class = "question">
+                <h1>Q10: Should you become a CIT major?</h1>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>No</p></button>
+                <button class = "correct"><p><i class="bi bi-record-circle"></i>Yes</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>No thanks</p></button>
+                <button class = "wrong"><p><i class="bi bi-record-circle"></i>Nope</p></button>
+            </div>
+        </div>
+    </body>
+</html>

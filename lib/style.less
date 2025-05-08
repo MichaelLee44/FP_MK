@@ -1,0 +1,112 @@
+/*
+    Michael Kellems
+    CIT 312
+    Prof. Kane
+    5/7/25
+*/
+
+@font-face {
+    font-family: "United Sans";
+    src: url("font/UnitedSansRgBk.otf");
+}
+
+@UnitedSans: "United Sans";
+@BoilermakerGold: #CFB991;
+@Aged: #8E6F3E;
+@Rush: #DAAA00;
+@Steel: #555960;
+
+html{
+    background-color: @Steel;
+}
+
+.navbar-brand>img{
+    border: 2px solid @Rush;
+}
+
+.container-span{
+    background-color: @Steel;
+    text-align: center;
+    padding: 40px;
+}
+
+.font-style-A{
+    font-family: @UnitedSans;
+    color: black;
+    text-align: center;
+}
+
+.font-style-B{
+    font-family: @UnitedSans;
+    color: @BoilermakerGold;
+    text-align: left;
+}
+
+.navbar{
+    background-color: @BoilermakerGold;
+    .font-style-A;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.focus{
+    box-sizing: border-box;
+    background-color: @BoilermakerGold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.focus>h1{
+    .font-style-A
+}
+
+#appliedcomputing, #quiz{
+    background-color: @BoilermakerGold;
+    height: 70px;
+    width: 100%;
+    padding: 12.5px;
+    .font-style-A;
+}
+
+.examples>h3{
+    color: @BoilermakerGold;
+    font-family: @UnitedSans;
+    opacity: .5;
+}
+
+.question{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid @BoilermakerGold;
+    border-radius: 10px;
+}
+
+.question>h1{
+    .font-style-A;
+}
+
+.question>button{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    display: block;
+}
+
+.question>button>p{
+    .font-style-B
+}
+
+.question>button:hover{
+    background-color: black;
+}
+
+.correct:focus{
+    background-color: green;
+}
+
+.wrong:focus{
+    background-color: darkred;
+}
